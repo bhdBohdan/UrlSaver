@@ -1,0 +1,36 @@
+.link {
+  margin: 20px;
+  background-color: rgb(255, 228, 248);
+  display: flex;
+}
+
+.delete-btn {
+  background-color: #ff4d4f; /* red tone */
+  color: white;
+  border: none;
+  padding: 0.4em 0.8em;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.delete-btn:hover {
+  background-color: #d9363e;
+  transform: scale(1.05);
+}
+
+.delete-btn:active {
+  transform: scale(0.97);
+}
+
+.delete-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.5);
+}
+
+@media (max-width: 768px) {
+  .link {
+    width: 60vw;
+  }
+}
