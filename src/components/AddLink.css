@@ -6,7 +6,7 @@ form {
   height: 20vh;
   margin: 2rem auto;
   color: #f7f5ef;
-  background-color: #c9aaff;
+  background-color: #9929ea;
   padding: 2rem;
   border-radius: 16px;
 }
@@ -16,7 +16,7 @@ form label {
   font-weight: bold;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
-  color: #190043;
+  color: #000000;
 }
 
 form input {
@@ -28,15 +28,15 @@ form input {
   padding-bottom: 1rem;
   border-radius: 4px;
   background-color: #f7f5ef;
-  border: 5px solid #ebc002;
-  border-radius: 12px;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
   margin-bottom: 0.5rem;
 }
 
 form button {
   font: inherit;
   background-color: #190043;
-  border: 1px solid #f9f9f9;
+  border: 0px solid #f9f9f9;
   color: #ffffff;
   padding: 0.5rem 1.5rem;
   border-radius: 8px;
@@ -49,6 +49,11 @@ form button:hover,
 form button:active {
   background-color: #000000;
   border-color: #ebc002;
+}
+
+.light-mode form {
+  background-color: #e0dfdf;
+  color: #bc0000;
 }
 
 @media (max-width: 768px) {

@@ -6,7 +6,10 @@ const LinkItem: React.FC<{ item: Link; onRemoveTodo: () => void }> = (
 ) => {
   return (
     <div className="link">
-      <a href={props.item.url}> {props.item.title} </a>
+      <a href={props.item.url} target="_blank">
+        {" "}
+        {props.item.title}{" "}
+      </a>
       <button className="delete-btn" onClick={props.onRemoveTodo}>
         Del
       </button>
